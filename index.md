@@ -30,12 +30,12 @@
 4. 给存储设备分区：推荐使用ext3格式；
 	> 说明：如果硬盘空间大点（80G以上吧，具体本人没环境试，我自己的320G不能用fdisk命令分，那就找个分区工具吧）
 	
-	* U盘可以使用fdisk进行分区，分两个就好，一个作为文件系统，一个作为swap分区（一般为路由器内存的2-3倍就差不多了）；fdisk分区命令具体使用见google；ssh到路由器之后执行：
+	   * U盘可以使用fdisk进行分区，分两个就好，一个作为文件系统，一个作为swap分区（一般为路由器内存的2-3倍就差不多了）；fdisk分区命令具体使用见google；ssh到路由器之后执行：
 
 			fdisk /dev/sda （也有可能是sdb）
 			输入p查看分区表是不是空的，不是空的就输入d，按照提示输入对应的分区号直到清空；
 			创建分区按 n ；记得分好之后按wq命令，保存并退出分区；
-	* 分区格式化：mkfs.ext3 -L tomato /dev/sda1   （tomato为卷标，可以随便命名），如果提示/dev/sda1 is mounted ! 就说明分区被挂载了，输入umount /dev/sda1然后再回车就卸载了；格式化swap分区：mkswap -L SWAP /dev/sda2
+       	   * 分区格式化：mkfs.ext3 -L tomato /dev/sda1   （tomato为卷标，可以随便命名），如果提示/dev/sda1 is mounted ! 就说明分区被挂载了，输入umount /dev/sda1然后再回车就卸载了；格式化swap分区：mkswap -L SWAP /dev/sda2
 5. 初始化optware：
 
 		mkdir /mnt/tomato
