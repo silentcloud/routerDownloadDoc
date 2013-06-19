@@ -1,0 +1,73 @@
+2013-03-08 23:20:33.994743 [ERROR] [HttpListenCommand.cc:115] IPv4 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address already in use
+2013-03-08 23:20:34.008046 [ERROR] [HttpListenCommand.cc:115] IPv6 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address family not supported by protocol
+2013-03-08 23:20:34.009463 [ERROR] [MultiUrlRequestInfo.cc:284] Exception caught
+Exception: [DownloadEngineFactory.cc:192] errorCode=1 Failed to setup RPC server.
+2013-03-08 23:34:20.149920 [ERROR] [HttpListenCommand.cc:115] IPv4 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address already in use
+2013-03-08 23:34:20.162483 [ERROR] [HttpListenCommand.cc:115] IPv6 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address family not supported by protocol
+2013-03-08 23:34:20.166829 [ERROR] [MultiUrlRequestInfo.cc:284] Exception caught
+Exception: [DownloadEngineFactory.cc:192] errorCode=1 Failed to setup RPC server.
+2013-03-09 14:43:21.033681 [NOTICE] [HttpListenCommand.cc:112] IPv4 RPC: listening to port 6800
+2013-03-09 14:43:21.079498 [ERROR] [HttpListenCommand.cc:115] IPv6 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address family not supported by protocol
+2013-03-09 14:43:21.094874 [WARN] [MultiUrlRequestInfo.cc:223] Don't change system time while aria2c is running. Doing this may make aria2c hang for long time.
+2013-03-09 14:47:19.882423 [NOTICE] [HttpListenCommand.cc:112] IPv4 RPC: listening to port 6800
+2013-03-09 14:47:19.926466 [ERROR] [HttpListenCommand.cc:115] IPv6 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address family not supported by protocol
+2013-03-09 14:47:19.941860 [WARN] [MultiUrlRequestInfo.cc:223] Don't change system time while aria2c is running. Doing this may make aria2c hang for long time.
+2013-03-09 14:53:37.415168 [ERROR] [HttpListenCommand.cc:115] IPv4 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address already in use
+2013-03-09 14:53:37.425431 [ERROR] [HttpListenCommand.cc:115] IPv6 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address family not supported by protocol
+2013-03-09 14:53:37.431843 [ERROR] [MultiUrlRequestInfo.cc:284] Exception caught
+Exception: [DownloadEngineFactory.cc:192] errorCode=1 Failed to setup RPC server.
+2013-03-09 15:29:40.552944 [NOTICE] [DownloadEngine.cc:232] Emergency shutdown sequence commencing...
+2013-03-09 15:29:40.601962 [NOTICE] [MultiUrlRequestInfo.cc:274] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:15:35.838913 [NOTICE] [HttpListenCommand.cc:112] IPv4 RPC: listening to port 6800
+2013-03-09 16:15:35.869874 [ERROR] [HttpListenCommand.cc:115] IPv6 RPC: failed to bind port 6800
+Exception: [SocketCore.cc:329] errorCode=1 Failed to bind a socket, cause: Address family not supported by protocol
+2013-03-09 16:15:35.877039 [WARN] [MultiUrlRequestInfo.cc:223] Don't change system time while aria2c is running. Doing this may make aria2c hang for long time.
+2013-03-09 16:16:36.693481 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:17:36.710597 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:18:36.730558 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:19:36.763954 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:20:30.441613 [ERROR] [AbstractCommand.cc:304] CUID#15 - Download aborted. URI=%20ftp://dygod1:dygod1@d393.dygod.org:9102/[%E7%94%B5%E5%BD%B1%E5%A4%A9%E5%A0%82-www.dy2018.net].%E5%A4%A7%E4%B8%8A%E6%B5%B7.720p.BD%E5%9B%BD%E7%B2%A4%E5%8F%8C%E8%AF%AD%E4%B8%AD%E5%AD%97.mkv
+Exception: [AbstractCommand.cc:304] errorCode=1 URI=%20ftp://dygod1:dygod1@d393.dygod.org:9102/[%E7%94%B5%E5%BD%B1%E5%A4%A9%E5%A0%82-www.dy2018.net].%E5%A4%A7%E4%B8%8A%E6%B5%B7.720p.BD%E5%9B%BD%E7%B2%A4%E5%8F%8C%E8%AF%AD%E4%B8%AD%E5%AD%97.mkv
+  -> [InitiateConnectionCommandFactory.cc:86] errorCode=1 %20ftp is not supported yet.
+2013-03-09 16:20:30.442828 [NOTICE] [RequestGroupMan.cc:353] Download GID#a7de8caa0645d9ee not complete: 
+2013-03-09 16:20:36.787472 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:21:36.816592 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:22:36.842696 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:23:36.873094 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:24:36.937313 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:25:36.964833 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:25:46.010433 [NOTICE] [RequestGroup.cc:1194] Download complete: /tmp/mnt/sda1/downloads/worklog_v7.0.rar
+2013-03-09 16:26:37.006275 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:27:37.066152 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:27:54.885620 [ERROR] [AbstractCommand.cc:333] CUID#17 - Download aborted. URI=http://192.168.1.2/E%3A/%E5%A4%87%E4%BB%BD/%E7%9C%9F%E4%B8%89%E5%9C%B0%E5%9B%BE.iso
+Exception: [AbstractCommand.cc:860] errorCode=1 Failed to establish connection, cause: Connection timed out
+2013-03-09 16:27:54.886342 [NOTICE] [RequestGroupMan.cc:353] Download GID#cc17c22db1a76a5c not complete: 
+2013-03-09 16:28:37.113286 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:29:37.167965 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:29:46.303767 [ERROR] [AbstractCommand.cc:304] CUID#28 - Download aborted. URI=ftp://dygod1:dygod1@d393.dygod.org:9102/[%E7%94%B5%E5%BD%B1%E5%A4%A9%E5%A0%82-www.dy2018.net].%E5%A4%A7%E4%B8%8A%E6%B5%B7.720p.BD%E5%9B%BD%E7%B2%A4%E5%8F%8C%E8%AF%AD%E4%B8%AD%E5%AD%97.mkv
+Exception: [AbstractCommand.cc:304] errorCode=21 URI=ftp://dygod1:dygod1@d393.dygod.org:9102/[%E7%94%B5%E5%BD%B1%E5%A4%A9%E5%A0%82-www.dy2018.net].%E5%A4%A7%E4%B8%8A%E6%B5%B7.720p.BD%E5%9B%BD%E7%B2%A4%E5%8F%8C%E8%AF%AD%E4%B8%AD%E5%AD%97.mkv
+  -> [FtpNegotiationCommand.cc:194] errorCode=21 The response status is not successful. status=421
+2013-03-09 16:29:46.304744 [NOTICE] [RequestGroupMan.cc:353] Download GID#c4fea1233a60ee61 not complete: 
+2013-03-09 16:30:37.231210 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:31:37.276815 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:32:37.304635 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:33:37.318501 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:34:37.328158 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:35:37.345796 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:36:37.359814 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:37:37.366703 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:38:37.376544 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:39:37.397732 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:40:37.411275 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:41:37.419072 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:42:37.435081 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:43:37.454281 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
+2013-03-09 16:44:37.472046 [NOTICE] [SaveSessionCommand.cc:70] Serialized session to '/tmp/mnt/sda1/aria2/aria2.session' successfully.
