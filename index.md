@@ -41,7 +41,7 @@
 		mkdir /mnt/tomato
 		mount /dev/sda1 /mnt/tomato  (一系列环境挂载 )
 		mkdir /mnt/tomato/opt
-		mount -o bind  /mnt/OPTWARE/opt /opt
+		mount -o bind  /mnt/tomato/opt /opt
 		wget http://bbs.dualwan.cn/downloads/optware/optware-install.sh -O - | tr -d '\r' >  optware-install.sh
 		sh optware-install.sh
 		/opt/bin/ipkg update
