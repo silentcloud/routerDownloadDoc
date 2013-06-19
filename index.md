@@ -35,7 +35,7 @@
 			fdisk /dev/sda （也有可能是sdb）
 			输入p查看分区表是不是空的，不是空的就输入d，按照提示输入对应的分区号直到清空；
 			创建分区按 n ；记得分好之后按wq命令，保存并退出分区；
-	* 分区格式化：mkfs.ext3 -L tomato /dev/sda1   （OPTWARE为卷标，可以随便命名），如果提示/dev/sda1 is mounted ! 就说明分区被挂载了，输入umount /dev/sda1然后再回车就卸载了；格式化swap分区：mkswap -L SWAP /dev/sda2
+	* 分区格式化：mkfs.ext3 -L tomato /dev/sda1   （tomato为卷标，可以随便命名），如果提示/dev/sda1 is mounted ! 就说明分区被挂载了，输入umount /dev/sda1然后再回车就卸载了；格式化swap分区：mkswap -L SWAP /dev/sda2
 5. 初始化optware：
 
 		mkdir /mnt/tomato
@@ -50,7 +50,7 @@
 		进入 USB应用 -> USB设置，在挂载后运行中输入：
 	
 	<pre>mount -o bind /mnt/tomato/opt /opt
-	     swapon /dev/sda2</pre>
+	 swapon /dev/sda2</pre>
 		
 至此，可以使用tomato 1.28版本自带的bt脱机下载了，具体见 USB应用 -> BT脱机下载 ，勾选启用bt客户端，保存设置；
 
