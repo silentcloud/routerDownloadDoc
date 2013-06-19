@@ -47,11 +47,10 @@
 		/opt/bin/ipkg update
 6. 设置开机自动挂载opt 
 	
-		在/mnt/tomato/目录下新建.autorun 文件，内容为：
-		
-		#!/bin/sh
-		mount -o bind /mnt/tomato/opt /opt
-		swapon /dev/sda2
+		进入 USB应用 -> USB设置，在挂载后运行中输入：
+	
+	<pre>mount -o bind /mnt/tomato/opt /opt
+	     swapon /dev/sda2</pre>
 		
 至此，可以使用tomato 1.28版本自带的bt脱机下载了，具体见 USB应用 -> BT脱机下载 ，勾选启用bt客户端，保存设置；
 
