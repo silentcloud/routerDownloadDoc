@@ -14,8 +14,6 @@
 	
 	推荐路由：http://item.taobao.com/item.htm?spm=a1z09.5.0.41.VVlBlX&id=13833963026 【感谢飞哥的推荐，虽然二手但是便宜，性价比高啊】
 	
-	具体展示：http://moonka.f3322.org:8080/（我的路由500MHz CPU 16M内存）
-	
 ###原理：
 
 	带有TOMATO固件或者DD-WRT固件的路由就相当于一个linux系统，这下大家就明白了为啥可以脱机下载，因为它是一台小电脑嘛；下面就以totato固件作为说明；
